@@ -1,0 +1,23 @@
+{
+  "name": "CoderHunt",
+  "version": "0.3.0",
+  "description": "ERROR: No README data found!",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "~1.4.3",
+    "express": "~4.4.3",
+    "mongoskin": "~1.4.4",
+    "morgan": "~1.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD",
+  "keywords": [
+    "resume",
+    "cvs",
+    "coderhunt"
+  ]
+}

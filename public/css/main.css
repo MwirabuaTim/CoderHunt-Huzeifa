@@ -1,0 +1,50 @@
+body {
+	padding-top: 74px;
+	margin: 0;
+}
+
+html, body, #map {
+	height: 100%;
+    width: 100%;
+}
+
+.navbar-custom {
+	background: #fff;
+	border-top: 3px solid #01FF70;
+}
+
+.navbar-inner {
+	padding: 10px 0;
+}
+
+.navbar-form {
+	width: 50%;
+}
+
+.navbar-form .form-control {
+	width: 100%;
+}
+
+.jumbotron {
+	background: none;
+}
+.hero {
+	position: relative;
+	width: 100%;
+	height: 50%;
+}
+
+.hero-wrapper {
+	vertical-align: middle;
+	padding: 20px 0;
+	text-align: center;
+	background: white;
+	opacity: 0.75;
+	border-top: 5px solid #01FF70
+}
+
+.hero-wrapper h1 {
+	font-size: 60px;
+	line-height: 1;
+	letter-spacing: -1px;
+}
