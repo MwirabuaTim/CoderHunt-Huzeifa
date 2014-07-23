@@ -1,7 +1,7 @@
 {
   "name": "CoderHunt",
   "version": "0.3.0",
-  "description": "Find the best coders locally!",
+  "description": "ERROR: No README data found!",
   "main": "index.js",
   "dependencies": {
     "body-parser": "~1.4.3",
