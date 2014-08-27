@@ -6,12 +6,12 @@ var express = require('express'),
 var app = express();
 
 //Set port
-// app.set('port', process.env.PORT || 80);
+app.set('port', process.env.PORT || 3000);
 
 // all environments
-var port = process.env.VMC_APP_PORT || 3000;
-var host = process.env.VCAP_APP_HOST || 'localhost';
-app.set('port', process.env.PORT || port);
+// var port = process.env.VMC_APP_PORT || 3000;
+// var host = process.env.VCAP_APP_HOST || 'localhost';
+// app.set('port', process.env.PORT || port);
 
 
 app.use(logger('dev'));
