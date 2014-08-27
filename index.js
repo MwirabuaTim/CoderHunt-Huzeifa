@@ -20,5 +20,5 @@ app.use(express.static(path.join(__dirname, 'public')));
 //app.get('/devs/:id', devs.findById);
 
 app.listen(app.get('port'), function() {
-	console.log("Listening at port" + app.set('port'));
+	console.log("Listening at port " + app.set('port'));
 });
